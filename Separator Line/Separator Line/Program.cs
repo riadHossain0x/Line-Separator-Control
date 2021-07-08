@@ -14,6 +14,7 @@ namespace Separator_Line
         [STAThread]
         static void Main()
         {
+            Console.WriteLine("Test Tortoise");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmDemo());
